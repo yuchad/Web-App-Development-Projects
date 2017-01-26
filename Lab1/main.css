@@ -1,0 +1,264 @@
+/* Mobile First CSS*/
+body{
+	background-color: #3C7A89;
+    margin:0 auto;
+    
+}
+
+.head{
+	color:#143642;
+}
+
+li{
+	border-bottom: 1px solid #143642;
+}
+
+article{
+	text-align: center;
+	color: #66717E;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ACB0BD;
+}
+
+ul.topnav li {float: none;}
+
+ul.topnav li a {
+    display: block;
+    color: #143642;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1.mainBody {
+    color:#E7ECEF;
+    text-align: center;
+}
+
+img.vrPic{
+    display: block;
+    margin: auto;
+    width:100%;
+}
+
+figcaption{
+    color: #143642;
+}
+
+.cars{
+     margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ h2{
+    text-align: center;
+    color: #143642;
+}
+
+.carLayout {
+    display: inline-block;
+    margin: auto;
+    width:100%;
+    height:100%;
+}
+
+.endTag{
+    color:#143642;
+}
+
+img.me{
+    display: block;
+    margin: auto;
+    width:80%;
+}
+
+.asideDetails {
+    color:#143642;
+}
+
+.courses{
+    float: none;
+}
+
+p{
+    color:#143642;
+}
+
+ .social{
+        display: block;
+        margin: auto;
+        opacity: 0.5;
+
+    }
+
+.social:hover{
+    transform: scale(1.2,1.2);
+    opacity: 1;
+}
+
+
+
+
+
+/*Tablets and stuff */
+@media screen and (min-width: 500px){ 
+    
+    body{
+        background-color: #143642;
+    }
+
+
+    ul.topnav li {
+    	float: left;
+    }
+
+    ul.topnav li a{
+        color: #3C7A89;
+    }
+    
+    li { 
+    	border-bottom: 0px;
+    	border-right: 1px solid #143642;
+    }
+
+    .head{
+        color: #3C7A89;
+		font-size: 20px;
+	}
+
+    figcaption{
+        color: #3C7A89;
+    }
+
+    .cars{
+        float: left;
+        
+    }
+
+     h2{
+        color: #3C7A89;
+    }
+
+    .endTag{
+        color:#3C7A89;
+    }
+
+    img.me{
+      
+       width:60%;
+    }
+
+    .asideDetails {
+        color:#3C7A89;
+    }
+
+    .courses{
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    }
+
+    p{
+        color:#3C7A89;
+    }
+
+
+
+   .social:hover {
+         border-radius: 50%;
+         -webkit-transform: translate(0px,-50px);
+    }
+
+
+}
+
+/*Next breakpoint */
+@media screen and (min-width: 600px){
+	.head{
+		font-size: 40px;
+	}
+
+    h1.mainBody{
+        font-size: 40px;
+    }
+
+     img.me{
+        width:50%;
+    }
+
+    /*
+    .courses{
+        width:200px;
+        height:200px;
+    }
+    */
+
+
+
+}
+
+
+/*Final breakpoint */
+@media screen and (min-width: 900px){
+	.head{
+		font-size: 60px;
+	}
+
+    h1.mainBody{
+        font-size: 60px;
+    }
+
+    .cars{
+        width: 33%;
+        height: 33%;
+    }
+
+      img.me{
+
+        width:40%;
+    }
+
+
+    .parallax {
+        /* The image used */
+        background-image: url("http://www.desktopwallpaperhd.net/wallpapers/21/1/wallpapers-city-images-background-213681.jpg");
+
+        /* Set a specific height */
+        min-height: 500px; 
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .social{ 
+        display: inline-block;   
+    }
+
+    div.test{
+        text-align: center;
+    }
+  
+    
+    section.centre{
+        text-align: center;
+        background-color: #E7ECEF;
+    }
+
+    .asideDetails{
+        text-align: center;
+    }
+   
+
+}
+
