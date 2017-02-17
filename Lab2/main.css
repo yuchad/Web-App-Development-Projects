@@ -1,0 +1,285 @@
+/* Mobile */
+@media screen and (min-width: 0px){
+	input[type = text]{
+		width: 100%;
+		box-sizing: border-box;
+		border: 2px solid #ccc;
+		 border-radius: 4px;
+    	font-size: 16px;
+    	background-color: white;
+    	background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png');
+    	background-size: 20px 20px;
+    	background-position: 10px 10px; 
+    	background-repeat: no-repeat;
+   	 padding: 12px 20px 12px 40px;
+
+	}
+
+	.button{
+		background-color: #007EA7;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 12px;
+	}
+
+
+	.buttonDiv{
+		margin: auto;
+		text-align: center;
+	
+	}
+
+	.weather-app{
+		text-align: center;
+	}
+
+	body{
+		background: url("imgs/mountain.png") no-repeat;
+		background-size: auto 100%
+
+    
+	
+	}
+
+	h1{
+		text-align: center;
+		color:#003459;
+	}
+
+	.icon{
+		text-align: center;
+	}
+
+	img{
+		width: 50%;
+		height: 50%;
+	}
+
+		/* Style the list */
+	ul.tab {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    border: 1px solid #ccc;
+	    background-color: #f1f1f1;
+	}
+
+	/* Float the list items side by side */
+	ul.tab li {float: left;}
+
+	/* Style the links inside the list items */
+	ul.tab li a {
+	    display: inline-block;
+	    color: black;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	    transition: 0.3s;
+	    font-size: 17px;
+	}
+
+	/* Change background color of links on hover */
+	ul.tab li a:hover {background-color: #ddd;}
+
+	/* Create an active/current tablink class */
+	ul.tab li a:focus, .active {background-color: #ccc;}
+
+	/* Style the tab content */
+	.tabcontent {
+	    display: none;
+	    padding: 6px 12px;
+	    border: 1px solid #ccc;
+	    border-top: none;
+	    text-align: center;
+	}
+
+	.centre{
+		text-align: left;
+		-webkit-column-count :2;
+	}
+
+	#temperature{
+		font-size: 45px;
+		color: #003459;		
+	}
+
+	#location{
+		font-size: 60px;
+		color: #007EA7;
+	}
+
+	#icon{
+		height:100px;
+		width: 100px;
+	}
+
+	.humidity, .wind{
+		color:#003459;
+	}
+
+	/*
+	.firstPart, .secondPart, .thirdPart, .fourthPart{
+		
+		color: #003459;
+		font-size: 40px;
+	}*/
+
+	#firstTime, #secondTime, #thirdTime, #fourthTime{
+		color: #003459;
+		font-size: 40px;
+	}
+
+	#firstTemp, #secondTemp, #thirdTemp, #fourthTemp {
+		color:#007EA7;
+		font-size: 40px;
+	}
+
+	.dayOne, .dayTwo, .dayThree, .dayFour, .dayFive{
+		color: #003459;
+		font-size: 50px;
+	}
+
+	#tempDayOne, #tempDayTwo, #tempDayThree, #tempDayFour, #tempDayFive{
+		color: #007EA7;
+	}
+
+
+}
+
+/* Next breakpoint */
+@media screen and (min-width: 500px){ 
+	img{
+		width: 40%;
+		height: 40%;
+	}
+
+	h1{
+		font-size: 30px;
+	}
+
+	#temperature{
+		font-size: 60px;	
+	}
+
+	#location{
+		font-size: 70px;
+	}
+
+	#icon{
+		height:150px;
+		width: 150px;
+	}
+
+	.humidity, .wind{
+		font-size: 20px;
+	}
+
+
+	#firstTime, #secondTime, #thirdTime, #fourthTime{
+		font-size: 50px;
+	}
+
+	#firstTemp, #secondTemp, #thirdTemp, #fourthTemp {
+		font-size: 50px;
+	}
+
+	.dayOne, .dayTwo, .dayThree, .dayFour, .dayFive{
+		font-size: 60px;
+	}
+
+}
+
+/* Next Breakpoint */
+@media screen and (min-width: 900px){
+	img{
+		width: 30%;
+		height: 30%;
+	}
+
+	h1{
+		font-size: 70px;
+	}
+
+	#temperature{
+		font-size: 80px;	
+	}
+
+	#location{
+		font-size: 90px;
+	}
+
+	#icon{
+		height:200px;
+		width: 200px;
+	}
+
+	.humidity, .wind{
+		font-size: 30px;
+	}
+
+		#firstTime, #secondTime, #thirdTime, #fourthTime{
+		font-size: 60px;
+	}
+
+	#firstTemp, #secondTemp, #thirdTemp, #fourthTemp {
+		font-size: 60px;
+	}
+
+	.dayOne, .dayTwo, .dayThree, .dayFour, .dayFive{
+		font-size: 70px;
+	}
+
+
+}
+
+/* Final breakpoint */
+@media screen and (min-width: 1200px){
+	img{
+		width: 20%;
+		height: 20%;
+	}
+
+	h1{
+		font-size: 90px;
+	}
+
+	#temperature{
+		font-size: 90px;		
+	}
+
+	#location{
+		font-size: 100px;
+	}
+
+	#icon{
+		height:250px;
+		width: 250px;
+	}
+
+	.humidity, .wind{
+		font-size: 40px;
+	}
+
+	#firstTime, #secondTime, #thirdTime, #fourthTime{
+		font-size: 70px;
+	}
+
+	#firstTemp, #secondTemp, #thirdTemp, #fourthTemp {
+		font-size: 70px;
+	}
+
+	.dayOne, .dayTwo, .dayThree, .dayFour, .dayFive{
+		font-size: 80px;
+	}
+
+
+}

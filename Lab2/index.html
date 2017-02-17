@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>
+	<title>Weather App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<script type="text/javascript" src="weather.js"></script>
+</head>
+<body>
+
+
+	<input type="text" name="search" placeholder="search..." 
+	id = "cityId" autocomplete="off">
+
+	<div class = "buttonDiv">
+		<a href="#Hourly">
+		<button class ="button button1" id="submitBtn" 
+		onclick="grabInfo();">Find</button>
+		</a>		
+	</div>
+
+	<div class = "icon">
+		<img src="imgs/weather-icon.png">
+	</div>
+
+	
+
+	<div>
+		<h1>
+			Welcome to Chad's Weather App
+		</h1>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id="jumpTo"> </div>
+
+
+	<ul class="tab">
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Hourly')" id = "defaultOpen">Hourly</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Daily')">Daily</a></li>
+  <li><a href="javascript:void(0)" class = "tablinks" onclick="changeDegrees()" >&deg C/&deg F</a></li>
+  
+</ul>
+
+<div id="Hourly" class="tabcontent">
+ 
+	<div class="Hourly">
+		
+			<div class="temperature"><span id="temperature">0</span></div> 
+			<div class="location"><span id="location">Unknown</span></div>
+			
+			
+			<div class = "centre">
+				<div class="icon">
+					<img id="icon" src="" />
+				</div>
+
+			
+
+				<div class="humidity">
+					
+					<span id="humidity">0</span>% Humidity
+				</div>
+
+				<div class="wind">
+					<span id="wind">0</span> mph <span id="direction">N</span>
+				</div>
+
+			</div>
+		
+	</div>
+
+
+	<div class = "firstPart"> <span id = "firstTime"></span>
+		<span id = "firstTemp"></span></div>
+	<div class = "secondPart"> <span id = "secondTime"></span>
+		<span id = "secondTemp"></span></div>
+	<div class = "thirdPart"> <span id = "thirdTime"></span>
+		<span id = "thirdTemp"></span></div>
+	<div class = "fourthPart"> <span id = "fourthTime"></span>
+		<span id = "fourthTemp"></span></div>
+</div>
+
+<div id="Daily" class="tabcontent">
+  	
+
+
+	<div class = "Daily">
+		 <div class = "dayOne"><span id = "dayOne"></span>
+		 	<span id = "tempDayOne"></span>
+		 </div>
+
+		 <div class = "dayTwo"><span id = "dayTwo"></span>
+		 	<span id = "tempDayTwo"></span>
+		 </div>
+
+		 <div class = "dayThree"><span id = "dayThree"></span>
+		 	<span id = "tempDayThree"></span>
+		 </div>
+
+		 <div class = "dayFour"><span id = "dayFour"></span>
+		 	<span id = "tempDayFour"></span>
+		 </div>
+
+		  <div class = "dayFive"><span id = "dayFive"></span>
+		 	<span id = "tempDayFive"></span>
+		 </div>
+	</div>
+
+	
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
